@@ -11,5 +11,9 @@ import { BattleMetricsClient } from "to-be-determined";
 
 const client = new BattleMetricsClient("<YOUR_API_KEY>");
 
-const bans = await client.getBans();
+const bans = await client.bans.getBans();
 ```
+
+## API Documentation
+
+https://www.battlemetrics.com/developers/documentation

@@ -1,9 +1,10 @@
 import { z } from "zod";
-export * from "./ban";
-export * from "./banlist";
-export * from "./organization";
-export * from "./player";
-export * from "./server";
-export * from "./user";
+
+export * as ban from "./ban";
+export * as banlist from "./banlist";
+export * as organization from "./organization";
+export * as player from "./player";
+export * as server from "./server";
+export * as user from "./user";
 
 export const idSchema = z.string().min(1);
